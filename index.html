@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>证书扫码结果</title>
+    <title>扫码查询</title>
     <style>
         * {
             margin: 0;
@@ -69,10 +69,10 @@
         }
         
         .unified-card {
+            position:relative;
             background-color: #fff;
             border-radius: 16px;
-            padding: 20px;
-            margin-bottom: 20px;
+            padding: 30px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         }
         
@@ -104,7 +104,9 @@
         }
         
         .remark-section {
-            padding: 15px;
+            position: absolute;
+            left: 10px;
+            bottom: 5px;
             border-radius: 12px;
         }
         
@@ -193,9 +195,7 @@
                 <div class="back-section">
                     <img class="back-img" src="https://LLcUser.github.io/images/fanmian.png" alt="证件反面">
                 </div>
-
-                <div class="divider"></div>
-
+                
                 <!-- 备注文字 -->
                 <div class="remark-section">
                     <div class="remark-text">备注：本证书已于2024-04-15在天津市应急管理局完成复审。请于2027-04-13前进行延期换证。</div>
